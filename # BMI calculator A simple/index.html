@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+ <!-- Required meta tags -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- Author Tags -->
+  <meta name="author" content="Mauro Siqueira Junior">
+
+  <!-- Title of the page -->
+  <title> BMI calculator </title>
+
+  <!-- Import custom style -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- Import font -->
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>  
+  <!-- calculator / home -->
+  <section id="calculator" class="absolute-center">
+    <div class="container">
+      <div class="calculator">
+        <!-- forms -->
+        <div class="form">
+          <form id="forms">
+            <!-- Title do forms -->
+            <h1>Assignment: Lab 1 Calculate My BMI</h1>
+
+            <!-- Height value -->
+            <label for="height"> height (ex: 1,80) </label>
+            <input type="number" step=".01" id="height" name="height" placeholder="Enter your height, in meter(s)" required>
+
+            <!-- Weight value -->
+            <label for="Weight"> Weight (ex: 60,00) </label>
+            <input type="number" step=".01" id="Weight" name="Weight" placeholder="Enter your Weight, in kilogram(s)" required>
+
+            <!-- Calculate button -->
+            <button type="submit" id="calculate">calculate my BMI</button>
+
+            <!-- calculation result -->
+            <div class="result"></div>
+            </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- calculator / home ends here -->
+
+  <!-- Import JavaScript -->
+  <script src="./assets/js/main.js"></script>
+ <!-- Import JavaScript ends here -->
+
+</body>
+
+</html>
